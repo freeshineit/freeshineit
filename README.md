@@ -4,11 +4,22 @@
   <img src="https://github-readme-stats.vercel.app/api?username=freeshineit&show_icons=true&count_private=true&include_all_commits=true" alt="freeshineit's GitHub Stats" />
 </a>
 
-### Recently I'm coding in...
+### 💻 Ask me about
 
-<a href="https://codestats.net/users/freeshineit">
-  <img src='https://codestats-readme.freeshineit.cn/history-graph/freeshineit?width=850&height=300&timezone=08:00&history_days=20&max_languages=12&language_colors=["3e4053","f15854","5da5da","faa43a","60bd68","f17cb0","b2912f","00897b","b276b2","ffc0cb","cddc39","7e57c2","bdbdbd"]' alt="freeshineit's Code::Stats history graph" />
-</a>
+- Web Development
+
+  - HTML, CSS , Javascript and Typescript ✅
+  - React with Redux ❤️
+  - Vue
+  - Electron
+  - Koa ❤️
+  - NodeJS
+  - PWA
+
+- Tools 🔧
+  - git
+  - Webpack
+  - Gulp
 
 ### 🌱 I’m currently learning ...
 
