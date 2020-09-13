@@ -1,10 +1,16 @@
 ### Hi there, I'm ShineShao! 👋
 
-<a href="https://github.com/freeshineit">
+<div>
+  <!-- https://github.com/anuraghazra/github-readme-stats -->
+  <a href="https://github.com/freeshineit">
   <img src="https://github-readme-stats.vercel.app/api?username=freeshineit&show_icons=true&count_private=true&include_all_commits=true" alt="freeshineit's GitHub Stats" />
-</a>
+ </a>
+  <a href="https://github.com/freeshineit">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=freeshineit&langs_count=8&layout=compact&hide=Python" alt="freeshineit's Top Langs" />
+ </a>
+</div>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=freeshineit&langs_count=8)](https://github.com/freeshineit/github-readme-stats)
+<!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=freeshineit&langs_count=8)](https://github.com/freeshineit/github-readme-stats) -->
 
 ### 💻 Ask me about
 
@@ -26,7 +32,7 @@
 
 ### 🌱 I’m currently learning ...
 
-- golang
+- golang ❤️
 
 <!--
 **freeshineit/freeshineit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
