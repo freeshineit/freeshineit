@@ -4,6 +4,8 @@
   <img src="https://github-readme-stats.vercel.app/api?username=freeshineit&show_icons=true&count_private=true&include_all_commits=true" alt="freeshineit's GitHub Stats" />
 </a>
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=freeshineit&layout=compact)](https://github.com/freeshineit/github-readme-stats)
+
 ### 💻 Ask me about
 
 - Web Development
