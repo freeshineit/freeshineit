@@ -19,7 +19,7 @@
   - HTML, CSS , Javascript and Typescript ✅
   - React with Redux ❤️
   - Vue
-  - Next.js
+  - Next.js ❤️
   - Electron
   - Koa ❤️
   - NodeJS
