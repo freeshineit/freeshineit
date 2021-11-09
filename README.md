@@ -30,6 +30,7 @@
   - git
   - Webpack
   - Gulp
+  - Rollup
 
 ### 🌱 I’m currently learning ...
 
