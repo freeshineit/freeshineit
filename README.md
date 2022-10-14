@@ -24,7 +24,7 @@
   - Koa ❤️
   - NodeJS
   - PWA
-  - Wechat applet（微信小程序）
+  - Weixin Mini Programs
 
 - Tools 🔧
   - git
