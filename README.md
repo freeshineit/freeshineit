@@ -26,14 +26,14 @@
 
 <picture>
   <source 
-    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=freeshineit&show_icons=true&theme=dark&langs_count=8&layout=compact"
+    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=freeshineit&show_icons=true&theme=dark&langs_count=8&layout=compact&hide=python"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=freeshineit&show_icons=true&langs_count=8&layout=compact"
+    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=freeshineit&show_icons=true&langs_count=8&layout=compact&hide=python"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=freeshineit&show_icons=true&langs_count=8&layout=compact" alt="freeshineit's Top Langs" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=freeshineit&show_icons=true&langs_count=8&layout=compact&hide=python" alt="freeshineit's Top Langs" />
 </picture>
  
 
