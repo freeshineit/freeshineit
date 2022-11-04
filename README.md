@@ -1,10 +1,13 @@
 ### Hi there, I'm ShineShao! 👋
 
-<div style="text-align: center;">
-<img src="https://media1.giphy.com/media/fvx95jkua5th3YeThr/giphy.gif?cid=ecf05e47ip4uudutlbzx76wu3u2225acdbmfkdxh259mxav0&rid=giphy.gif&ct=s" width="100" />
+<div style="text-align: center; display: flex; justify-content: center;" align="center">
+<img src="https://media1.giphy.com/media/fvx95jkua5th3YeThr/giphy.gif?cid=ecf05e47ip4uudutlbzx76wu3u2225acdbmfkdxh259mxav0&rid=giphy.gif&ct=s" width="200" />
 </div>
 
-<div>
+<div style="text-align: center; display: flex; justify-content: center; padding: 20px" align="center">
+  <img src='https://komarev.com/ghpvc/?username=freeshineit&style=flat-square&color=blue' />
+</div>
+<div style="display: flex;">
   <!-- https://github.com/anuraghazra/github-readme-stats -->
   <a href="https://github.com/freeshineit">
   <img src="https://github-readme-stats.vercel.app/api?username=freeshineit&show_icons=true&count_private=true&include_all_commits=true" alt="freeshineit's GitHub Stats" />
@@ -20,7 +23,7 @@
 
 - Web Development
 
-  - HTML, CSS , Javascript and Typescript ✅
+  - HTML, CSS/Sass/Less , Javascript and Typescript ✅
   - React with Redux ❤️
   - Vue
   - Next.js ❤️
@@ -31,16 +34,16 @@
   - Weixin Mini Programs
 
 - Tools 🔧
-  - git
+  - Git
   - Webpack
   - Gulp
   - Rollup
 
 ### 🌱 I’m currently learning ...
 
-- golang ❤️
-- rust ❤️
-- webassembly ❤️
+- Golang ❤️
+- Rust ❤️
+- WebAssembly ❤️
 
 <!--
 **freeshineit/freeshineit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
