@@ -1,5 +1,9 @@
 ### Hi there, I'm ShineShao! 👋
 
+<div style="text-align: center;">
+<img src="https://media1.giphy.com/media/fvx95jkua5th3YeThr/giphy.gif?cid=ecf05e47ip4uudutlbzx76wu3u2225acdbmfkdxh259mxav0&rid=giphy.gif&ct=s" width="100" />
+</div>
+
 <div>
   <!-- https://github.com/anuraghazra/github-readme-stats -->
   <a href="https://github.com/freeshineit">
