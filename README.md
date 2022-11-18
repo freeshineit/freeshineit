@@ -102,7 +102,7 @@
     <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
   </a>
   <a href="https://webpack.js.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/webpack/webpack-original-wordmark.svg" alt="webpack" width="40" height="40"/>
+    <img src="./icons/webpack.svg" alt="webpack"  height="40"/>
   </a>
   <a href="https://gulpjs.com" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gulp/gulp-plain.svg" alt="gulp" width="40" height="40"/> 
@@ -120,7 +120,7 @@
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg" alt="rust" width="40" height="40"/> 
   </a>
   <a href="https://webassembly.org" target="_blank" rel="noreferrer"> 
-    <img src="./icons/webassembly.svg" alt="webassembly" width="40" height="40"/> 
+    <img src="./icons/webassembly.svg" alt="webassembly" height="40"/> 
   </a>
 
 
