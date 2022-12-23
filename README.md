@@ -84,7 +84,7 @@
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg" alt="electron" width="40" height="40"/>
     </a>
     <a href="https://nodejs.org" target="_blank" rel="noreferrer" title='nodejs'> 
-      <img src="https://nodejs.org/static/images/logo.svg" alt="nodejs" width="40" height="40"/> 
+      <img src="./icons/nodejs.png" alt="nodejs" width="40" height="40"/> 
     </a>
     <a href="https://mp.weixin.qq.com/cgi-bin/wx?token=&lang=zh_CN" target="_blank" rel="noreferrer" title='小程序'>
       <img src="./icons/mini_programs.svg" alt="小程序" width="40" height="40"/>
