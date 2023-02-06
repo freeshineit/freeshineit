@@ -75,7 +75,7 @@
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/>
     </a>
     <a href="https://nextjs.org" target="_blank" rel="noreferrer" title='nextjs'> 
-      <img src="./icons/nextjs.svg" alt="next.js" width="40" height="40"/> 
+      <img src="./icons/next.js.png" alt="next.js" height="40"/> 
     </a>
     <a href="https://vuejs.org/" target="_blank" rel="noreferrer" title='vuejs'>
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/>
@@ -117,7 +117,7 @@
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="golang" width="40" height="40"/>
   </a>
   <a href="https://www.rust-lang.org" target="_blank" rel="noreferrer" title='rust'> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg" alt="rust" width="40" height="40"/> 
+    <img src="./icons/rust.png" alt="rust" width="40" height="40"/> 
   </a>
   <a href="https://webassembly.org" target="_blank" rel="noreferrer" title='webassembly'> 
     <img src="./icons/webassembly.svg" alt="webassembly" height="40"/> 
