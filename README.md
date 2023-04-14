@@ -110,6 +110,9 @@
   <a href="https://rollupjs.org" target="_blank" rel="noreferrer" title='rollup'> 
     <img src="./icons/rollup.svg" alt="rollup" width="40" height="40"/>
   </a>
+  <a href="https://vitejs.dev/" target="_blank" rel="noreferrer" title='vite'> 
+    <img src="./icons/vite.svg" alt="rollup" width="40" height="40"/>
+  </a>
 
 ### 🌱 I’m currently learning ...
 
