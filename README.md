@@ -105,6 +105,10 @@
         <a href="https://gulpjs.com" title="Gulp"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gulp/gulp-plain.svg" width="36" height="36" alt="Gulp" /></picture></a>
         <a href="https://rollupjs.org" title="Rollup"><picture><img src="./icons/rollup.svg" width="36" height="36" alt="Rollup" /></picture></a>
         <a href="https://vitejs.dev/" title="Vite"><picture><img src="./icons/vite.svg" width="36" height="36" alt="Vite" /></picture></a>
+        <a href="https://jestjs.io/" title="Jest"><picture><img src="./icons/jest.svg" width="36" height="36" alt="Jest" /></picture></a>
+        <a href="https://eslint.org/" title="ESLint"><picture><img src="./icons/eslint.svg" width="36" height="36" alt="ESLint" /></picture></a>
+        <a href="https://prettier.io/" title="Prettier"><picture><img src="./icons/prettier.png" width="36" height="36" alt="Prettier" /></picture></a>
+        <a href="https://pnpm.io/" title="pnpm"><picture><img src="./icons/pnpm.svg" width="36" height="36" alt="pnpm" /></picture></a>
       </div>
     </td>
   </tr>
