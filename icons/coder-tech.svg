@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Animated coder in futuristic style</title>
+  <desc id="desc">A transparent-background animated SVG of a programmer typing code with neon tech effects.</desc>
+
+  <defs>
+    <linearGradient id="neonCyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#45f6ff"/>
+      <stop offset="100%" stop-color="#00bcd4"/>
+    </linearGradient>
+    <linearGradient id="neonBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7aa9ff"/>
+      <stop offset="100%" stop-color="#4361ee"/>
+    </linearGradient>
+    <linearGradient id="neonPurple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="bigGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="8" result="blur2"/>
+      <feMerge>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#45f6ff" stroke-opacity="0.15" stroke-width="1"/>
+    </pattern>
+
+    <style>
+      .wire { stroke: url(#neonCyan); stroke-width: 2; fill: none; opacity: 0.7; }
+      .panel { fill: #0b1020; fill-opacity: 0.22; stroke: #45f6ff; stroke-opacity: 0.55; stroke-width: 2; }
+      .code { fill: #8ef8ff; font: 700 14px 'Consolas', 'Menlo', monospace; letter-spacing: 0.4px; }
+      .small-code { fill: #9dc4ff; font: 700 11px 'Consolas', 'Menlo', monospace; opacity: 0.95; }
+      .blink { animation: blink 1s steps(1) infinite; }
+      .float1 { animation: float1 4s ease-in-out infinite; }
+      .float2 { animation: float2 5s ease-in-out infinite; }
+      .pulse { animation: pulse 2.8s ease-in-out infinite; }
+      .typingArm { transform-origin: 460px 358px; animation: typing 0.5s ease-in-out infinite alternate; }
+      .typingArm2 { transform-origin: 502px 358px; animation: typing2 0.55s ease-in-out infinite alternate; }
+      .scanline { animation: scan 2.2s linear infinite; }
+      .cursorMove { animation: cursorMove 3s ease-in-out infinite; }
+
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes float1 {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-6px); }
+      }
+      @keyframes float2 {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(8px); }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.35; }
+        50% { opacity: 0.85; }
+      }
+      @keyframes typing {
+        0% { transform: rotate(-1deg) translateY(0); }
+        100% { transform: rotate(2deg) translateY(3px); }
+      }
+      @keyframes typing2 {
+        0% { transform: rotate(1deg) translateY(1px); }
+        100% { transform: rotate(-2deg) translateY(4px); }
+      }
+      @keyframes scan {
+        0% { transform: translateY(0); opacity: 0; }
+        10% { opacity: 0.6; }
+        90% { opacity: 0.3; }
+        100% { transform: translateY(172px); opacity: 0; }
+      }
+      @keyframes cursorMove {
+        0% { transform: translate(0, 0); }
+        35% { transform: translate(80px, 0); }
+        60% { transform: translate(130px, 18px); }
+        100% { transform: translate(20px, 35px); }
+      }
+    </style>
+  </defs>
+
+  <g class="float1">
+    <ellipse cx="476" cy="464" rx="190" ry="24" fill="#45f6ff" fill-opacity="0.12" filter="url(#bigGlow)"/>
+  </g>
+
+  <g filter="url(#softGlow)">
+    <rect x="120" y="72" width="720" height="360" rx="18" class="panel"/>
+    <rect x="130" y="82" width="700" height="340" rx="14" fill="url(#grid)" opacity="0.55"/>
+
+    <path class="wire" d="M170 420 C220 380, 250 380, 300 420"/>
+    <path class="wire" d="M650 420 C700 380, 735 380, 790 420"/>
+
+    <circle cx="170" cy="420" r="4" fill="#45f6ff" class="pulse"/>
+    <circle cx="790" cy="420" r="4" fill="#7aa9ff" class="pulse"/>
+  </g>
+
+  <g>
+    <rect x="308" y="120" width="336" height="204" rx="12" fill="#09101f" fill-opacity="0.65" stroke="url(#neonBlue)" stroke-opacity="0.8" stroke-width="2.4"/>
+    <rect x="322" y="136" width="308" height="176" rx="8" fill="#061024" fill-opacity="0.9"/>
+
+    <g class="scanline">
+      <rect x="322" y="136" width="308" height="14" fill="#45f6ff" fill-opacity="0.18"/>
+    </g>
+
+    <text x="336" y="165" class="code">const project = "future-ui";</text>
+    <text x="336" y="188" class="code">function render(data) {</text>
+    <text x="354" y="211" class="small-code">return data.map((item) =&gt; &lt;Card /&gt;)</text>
+    <text x="336" y="234" class="code">}</text>
+    <text x="336" y="257" class="small-code">deploy("edge", { optimize: true })</text>
+    <text x="336" y="280" class="small-code">// shipping innovation...</text>
+
+    <g class="cursorMove">
+      <rect x="337" y="288" width="10" height="2" fill="#8ef8ff" class="blink"/>
+    </g>
+  </g>
+
+  <g>
+    <circle cx="476" cy="352" r="34" fill="#0f172a" stroke="url(#neonPurple)" stroke-width="2.5"/>
+    <ellipse cx="476" cy="344" rx="18" ry="14" fill="#152238"/>
+    <circle cx="468" cy="341" r="3.2" fill="#8ef8ff"/>
+    <circle cx="484" cy="341" r="3.2" fill="#8ef8ff"/>
+    <path d="M466 355 Q476 364 486 355" fill="none" stroke="#8ef8ff" stroke-width="2" stroke-linecap="round"/>
+
+    <rect x="438" y="386" width="76" height="72" rx="14" fill="#101a33" stroke="url(#neonBlue)" stroke-width="2"/>
+
+    <g class="typingArm">
+      <rect x="420" y="392" width="22" height="58" rx="10" fill="#12203a" stroke="#45f6ff" stroke-opacity="0.7" stroke-width="1.6"/>
+      <circle cx="430" cy="454" r="7" fill="#1e2f4f"/>
+    </g>
+
+    <g class="typingArm2">
+      <rect x="510" y="392" width="22" height="58" rx="10" fill="#12203a" stroke="#7aa9ff" stroke-opacity="0.7" stroke-width="1.6"/>
+      <circle cx="522" cy="454" r="7" fill="#1e2f4f"/>
+    </g>
+  </g>
+
+  <g>
+    <rect x="388" y="458" width="176" height="20" rx="8" fill="#0f1d36" stroke="#45f6ff" stroke-opacity="0.45"/>
+    <g fill="#8ef8ff" fill-opacity="0.85">
+      <rect x="400" y="463" width="12" height="6" rx="2">
+        <animate attributeName="opacity" values="0.35;1;0.35" dur="0.5s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="416" y="463" width="12" height="6" rx="2">
+        <animate attributeName="opacity" values="1;0.35;1" dur="0.5s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="432" y="463" width="12" height="6" rx="2"/>
+      <rect x="448" y="463" width="12" height="6" rx="2"/>
+      <rect x="464" y="463" width="12" height="6" rx="2"/>
+      <rect x="480" y="463" width="12" height="6" rx="2"/>
+      <rect x="496" y="463" width="12" height="6" rx="2"/>
+      <rect x="512" y="463" width="12" height="6" rx="2"/>
+      <rect x="528" y="463" width="12" height="6" rx="2"/>
+      <rect x="544" y="463" width="12" height="6" rx="2"/>
+    </g>
+  </g>
+
+  <g class="float2" filter="url(#softGlow)">
+    <circle cx="250" cy="120" r="3" fill="#8ef8ff" class="pulse"/>
+    <circle cx="700" cy="130" r="3" fill="#7aa9ff" class="pulse"/>
+    <circle cx="760" cy="250" r="2.5" fill="#a78bfa" class="pulse"/>
+    <circle cx="210" cy="280" r="2.5" fill="#45f6ff" class="pulse"/>
+
+    <path d="M210 140 L240 160 L220 190" class="wire" stroke-width="1.5" opacity="0.45"/>
+    <path d="M720 180 L760 200 L740 230" class="wire" stroke-width="1.5" opacity="0.45"/>
+  </g>
+</svg>

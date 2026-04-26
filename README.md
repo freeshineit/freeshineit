@@ -1,5 +1,5 @@
 <div style="text-align: center; display: flex; justify-content: center;" align="center">
-<img src="https://media1.giphy.com/media/fvx95jkua5th3YeThr/giphy.gif?cid=ecf05e47ip4uudutlbzx76wu3u2225acdbmfkdxh259mxav0&rid=giphy.gif&ct=s" width="200" />
+<img src="./icons/coder-tech.svg" width="200" />
 </div>
 
 <div style="text-align: center; display: flex; justify-content: center; padding: 20px" align="center">
