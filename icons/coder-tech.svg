@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
-  <title id="title">Animated coder in futuristic style</title>
-  <desc id="desc">A transparent-background animated SVG of a programmer typing code with neon tech effects.</desc>
+  <title id="title">AI-powered futuristic coder</title>
+  <desc id="desc">A transparent-background animated SVG of a programmer with AI neural network effects, holographic UI, and cyberpunk aesthetics.</desc>
 
   <defs>
     <linearGradient id="neonCyan" x1="0" y1="0" x2="1" y2="1">
@@ -12,165 +12,365 @@
       <stop offset="100%" stop-color="#4361ee"/>
     </linearGradient>
     <linearGradient id="neonPurple" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="0%" stop-color="#c084fc"/>
       <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="neonPink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#db2777"/>
+    </linearGradient>
+    <linearGradient id="holoGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#45f6ff" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#7c3aed" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#45f6ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="brainGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="50%" stop-color="#45f6ff"/>
+      <stop offset="100%" stop-color="#f472b6"/>
     </linearGradient>
 
     <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-
     <filter id="bigGlow" x="-80%" y="-80%" width="260%" height="260%">
       <feGaussianBlur stdDeviation="8" result="blur2"/>
-      <feMerge>
-        <feMergeNode in="blur2"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+      <feMerge><feMergeNode in="blur2"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="holoGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="12" result="blur3"/>
+      <feMerge><feMergeNode in="blur3"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
 
     <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#45f6ff" stroke-opacity="0.15" stroke-width="1"/>
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#45f6ff" stroke-opacity="0.1" stroke-width="0.5"/>
+    </pattern>
+    <pattern id="hexGrid" width="30" height="26" patternUnits="userSpaceOnUse">
+      <path d="M15 0 L30 7.5 L30 18.5 L15 26 L0 18.5 L0 7.5 Z" fill="none" stroke="#7c3aed" stroke-opacity="0.08" stroke-width="0.5"/>
     </pattern>
 
+    <clipPath id="screenClip">
+      <rect x="322" y="136" width="308" height="176" rx="8"/>
+    </clipPath>
+
     <style>
-      .wire { stroke: url(#neonCyan); stroke-width: 2; fill: none; opacity: 0.7; }
-      .panel { fill: #0b1020; fill-opacity: 0.22; stroke: #45f6ff; stroke-opacity: 0.55; stroke-width: 2; }
-      .code { fill: #8ef8ff; font: 700 14px 'Consolas', 'Menlo', monospace; letter-spacing: 0.4px; }
-      .small-code { fill: #9dc4ff; font: 700 11px 'Consolas', 'Menlo', monospace; opacity: 0.95; }
+      .wire { stroke: url(#neonCyan); stroke-width: 1.5; fill: none; opacity: 0.6; }
+      .wire2 { stroke: url(#neonPurple); stroke-width: 1.2; fill: none; opacity: 0.5; }
+      .panel { fill: #0b1020; fill-opacity: 0.18; stroke: #45f6ff; stroke-opacity: 0.4; stroke-width: 1.5; }
+      .code { fill: #8ef8ff; font: 700 14px 'Consolas','Menlo',monospace; letter-spacing: 0.4px; }
+      .small-code { fill: #9dc4ff; font: 700 11px 'Consolas','Menlo',monospace; opacity: 0.95; }
+      .ai-code { fill: #c084fc; font: 700 11px 'Consolas','Menlo',monospace; }
+      .comment { fill: #6b7280; font: italic 700 11px 'Consolas','Menlo',monospace; }
+
       .blink { animation: blink 1s steps(1) infinite; }
       .float1 { animation: float1 4s ease-in-out infinite; }
       .float2 { animation: float2 5s ease-in-out infinite; }
+      .float3 { animation: float3 6s ease-in-out infinite; }
       .pulse { animation: pulse 2.8s ease-in-out infinite; }
+      .pulse2 { animation: pulse2 2s ease-in-out infinite; }
       .typingArm { transform-origin: 460px 358px; animation: typing 0.5s ease-in-out infinite alternate; }
       .typingArm2 { transform-origin: 502px 358px; animation: typing2 0.55s ease-in-out infinite alternate; }
-      .scanline { animation: scan 2.2s linear infinite; }
+      .scanline { animation: scan 2.5s linear infinite; }
       .cursorMove { animation: cursorMove 3s ease-in-out infinite; }
+      .rotate { animation: rotate 20s linear infinite; }
+      .rotateSlow { animation: rotate 40s linear infinite; }
+      .dash { animation: dash 3s linear infinite; }
+      .neuralPulse { animation: neuralPulse 1.5s ease-in-out infinite; }
+      .dataFlow { animation: dataFlow 2s linear infinite; }
+      .holoFlicker { animation: holoFlicker 4s ease-in-out infinite; }
+      .breathe { animation: breathe 3s ease-in-out infinite; }
+      .sparkle { animation: sparkle 2s ease-in-out infinite; }
+      .typeReveal { animation: typeReveal 4s steps(30) infinite; }
 
-      @keyframes blink {
-        0%, 49% { opacity: 1; }
-        50%, 100% { opacity: 0; }
-      }
-      @keyframes float1 {
-        0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(-6px); }
-      }
-      @keyframes float2 {
-        0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(8px); }
-      }
-      @keyframes pulse {
-        0%, 100% { opacity: 0.35; }
-        50% { opacity: 0.85; }
-      }
-      @keyframes typing {
-        0% { transform: rotate(-1deg) translateY(0); }
-        100% { transform: rotate(2deg) translateY(3px); }
-      }
-      @keyframes typing2 {
-        0% { transform: rotate(1deg) translateY(1px); }
-        100% { transform: rotate(-2deg) translateY(4px); }
-      }
-      @keyframes scan {
-        0% { transform: translateY(0); opacity: 0; }
-        10% { opacity: 0.6; }
-        90% { opacity: 0.3; }
-        100% { transform: translateY(172px); opacity: 0; }
-      }
-      @keyframes cursorMove {
-        0% { transform: translate(0, 0); }
-        35% { transform: translate(80px, 0); }
-        60% { transform: translate(130px, 18px); }
-        100% { transform: translate(20px, 35px); }
-      }
+      @keyframes blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+      @keyframes float1 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
+      @keyframes float2 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(10px)} }
+      @keyframes float3 { 0%,100%{transform:translateY(0) rotate(0deg)} 50%{transform:translateY(-5px) rotate(3deg)} }
+      @keyframes pulse { 0%,100%{opacity:0.3} 50%{opacity:0.9} }
+      @keyframes pulse2 { 0%,100%{opacity:0.5;transform:scale(1)} 50%{opacity:1;transform:scale(1.15)} }
+      @keyframes typing { 0%{transform:rotate(-1deg) translateY(0)} 100%{transform:rotate(2deg) translateY(3px)} }
+      @keyframes typing2 { 0%{transform:rotate(1deg) translateY(1px)} 100%{transform:rotate(-2deg) translateY(4px)} }
+      @keyframes scan { 0%{transform:translateY(0);opacity:0} 10%{opacity:0.5} 90%{opacity:0.2} 100%{transform:translateY(172px);opacity:0} }
+      @keyframes cursorMove { 0%{transform:translate(0,0)} 35%{transform:translate(80px,0)} 60%{transform:translate(130px,18px)} 100%{transform:translate(20px,35px)} }
+      @keyframes rotate { 0%{transform:rotate(0deg)} 100%{transform:rotate(360deg)} }
+      @keyframes dash { 0%{stroke-dashoffset:200} 100%{stroke-dashoffset:0} }
+      @keyframes neuralPulse { 0%,100%{opacity:0.2;stroke-width:1} 50%{opacity:0.8;stroke-width:2} }
+      @keyframes dataFlow { 0%{stroke-dashoffset:40} 100%{stroke-dashoffset:0} }
+      @keyframes holoFlicker { 0%,100%{opacity:0.6} 25%{opacity:0.8} 50%{opacity:0.4} 75%{opacity:0.9} }
+      @keyframes breathe { 0%,100%{transform:scale(1);opacity:0.7} 50%{transform:scale(1.05);opacity:1} }
+      @keyframes sparkle { 0%,100%{opacity:0;transform:scale(0)} 50%{opacity:1;transform:scale(1)} }
+      @keyframes typeReveal { 0%{width:0} 100%{width:308px} }
     </style>
   </defs>
 
-  <g class="float1">
-    <ellipse cx="476" cy="464" rx="190" ry="24" fill="#45f6ff" fill-opacity="0.12" filter="url(#bigGlow)"/>
+  <!-- === BACKGROUND EFFECTS === -->
+  <!-- Hex grid background -->
+  <rect x="0" y="0" width="960" height="540" fill="url(#hexGrid)" opacity="0.5"/>
+
+  <!-- Neural network background connections -->
+  <g class="neuralPulse" filter="url(#softGlow)">
+    <line x1="80" y1="80" x2="200" y2="160" stroke="#7c3aed" stroke-opacity="0.3" stroke-width="1"/>
+    <line x1="200" y1="160" x2="150" y2="300" stroke="#45f6ff" stroke-opacity="0.2" stroke-width="1"/>
+    <line x1="800" y1="100" x2="720" y2="200" stroke="#c084fc" stroke-opacity="0.3" stroke-width="1"/>
+    <line x1="720" y1="200" x2="780" y2="350" stroke="#45f6ff" stroke-opacity="0.2" stroke-width="1"/>
+    <line x1="150" y1="300" x2="250" y2="400" stroke="#7c3aed" stroke-opacity="0.15" stroke-width="1"/>
+    <line x1="780" y1="350" x2="850" y2="420" stroke="#c084fc" stroke-opacity="0.15" stroke-width="1"/>
   </g>
 
+  <!-- Neural nodes -->
   <g filter="url(#softGlow)">
-    <rect x="120" y="72" width="720" height="360" rx="18" class="panel"/>
-    <rect x="130" y="82" width="700" height="340" rx="14" fill="url(#grid)" opacity="0.55"/>
-
-    <path class="wire" d="M170 420 C220 380, 250 380, 300 420"/>
-    <path class="wire" d="M650 420 C700 380, 735 380, 790 420"/>
-
-    <circle cx="170" cy="420" r="4" fill="#45f6ff" class="pulse"/>
-    <circle cx="790" cy="420" r="4" fill="#7aa9ff" class="pulse"/>
+    <circle cx="80" cy="80" r="3" fill="#c084fc" class="pulse2"/>
+    <circle cx="200" cy="160" r="4" fill="#45f6ff" class="pulse"/>
+    <circle cx="150" cy="300" r="3" fill="#7c3aed" class="pulse2"/>
+    <circle cx="250" cy="400" r="2.5" fill="#45f6ff" class="pulse"/>
+    <circle cx="800" cy="100" r="3" fill="#f472b6" class="pulse2"/>
+    <circle cx="720" cy="200" r="4" fill="#c084fc" class="pulse"/>
+    <circle cx="780" cy="350" r="3" fill="#45f6ff" class="pulse2"/>
+    <circle cx="850" cy="420" r="2.5" fill="#7c3aed" class="pulse"/>
   </g>
 
-  <g>
-    <rect x="308" y="120" width="336" height="204" rx="12" fill="#09101f" fill-opacity="0.65" stroke="url(#neonBlue)" stroke-opacity="0.8" stroke-width="2.4"/>
-    <rect x="322" y="136" width="308" height="176" rx="8" fill="#061024" fill-opacity="0.9"/>
+  <!-- Ground glow -->
+  <g class="float1">
+    <ellipse cx="476" cy="468" rx="200" ry="28" fill="#45f6ff" fill-opacity="0.08" filter="url(#bigGlow)"/>
+    <ellipse cx="476" cy="468" rx="120" ry="16" fill="#7c3aed" fill-opacity="0.06" filter="url(#bigGlow)"/>
+  </g>
 
-    <g class="scanline">
-      <rect x="322" y="136" width="308" height="14" fill="#45f6ff" fill-opacity="0.18"/>
+  <!-- === MAIN PANEL === -->
+  <g filter="url(#softGlow)">
+    <rect x="120" y="72" width="720" height="370" rx="18" class="panel"/>
+    <rect x="130" y="82" width="700" height="350" rx="14" fill="url(#grid)" opacity="0.4"/>
+  </g>
+
+  <!-- === HOLOGRAPHIC MONITOR === -->
+  <g>
+    <!-- Monitor frame with double border -->
+    <rect x="305" y="116" width="342" height="214" rx="14" fill="none" stroke="url(#neonBlue)" stroke-opacity="0.3" stroke-width="1"/>
+    <rect x="308" y="120" width="336" height="208" rx="12" fill="#09101f" fill-opacity="0.7" stroke="url(#neonBlue)" stroke-opacity="0.8" stroke-width="2"/>
+    <rect x="322" y="136" width="308" height="176" rx="8" fill="#061024" fill-opacity="0.92"/>
+
+    <!-- Holographic projection effect above monitor -->
+    <g class="holoFlicker" filter="url(#holoGlow)">
+      <path d="M370 116 L340 60 L612 60 L582 116" fill="url(#holoGrad)" opacity="0.15"/>
     </g>
 
-    <text x="336" y="165" class="code">const project = "future-ui";</text>
-    <text x="336" y="188" class="code">function render(data) {</text>
-    <text x="354" y="211" class="small-code">return data.map((item) =&gt; &lt;Card /&gt;)</text>
-    <text x="336" y="234" class="code">}</text>
-    <text x="336" y="257" class="small-code">deploy("edge", { optimize: true })</text>
-    <text x="336" y="280" class="small-code">// shipping innovation...</text>
+    <!-- Scanline -->
+    <g class="scanline" clip-path="url(#screenClip)">
+      <rect x="322" y="136" width="308" height="3" fill="#45f6ff" fill-opacity="0.25"/>
+    </g>
 
+    <!-- Code content with AI theme -->
+    <g clip-path="url(#screenClip)">
+      <text x="336" y="158" class="comment">// AI-powered code generation</text>
+      <text x="336" y="178" class="code">import { neural } from "@ai/core";</text>
+      <text x="336" y="198" class="code">const model = neural.create({</text>
+      <text x="354" y="216" class="ai-code">layers: [128, 64, 32],</text>
+      <text x="354" y="234" class="ai-code">activation: "relu",</text>
+      <text x="354" y="252" class="ai-code">optimizer: "adam"</text>
+      <text x="336" y="270" class="code">});</text>
+      <text x="336" y="290" class="small-code">await model.train(dataset);</text>
+      <text x="336" y="306" class="small-code">deploy("edge", { gpu: true });</text>
+    </g>
+
+    <!-- Cursor -->
     <g class="cursorMove">
-      <rect x="337" y="288" width="10" height="2" fill="#8ef8ff" class="blink"/>
+      <rect x="337" y="308" width="10" height="2" fill="#c084fc" class="blink"/>
+    </g>
+
+    <!-- Monitor status bar -->
+    <g>
+      <rect x="322" y="316" width="308" height="1" fill="#45f6ff" fill-opacity="0.3"/>
+      <circle cx="335" cy="323" r="3" fill="#10b981"/>
+      <text x="342" y="326" fill="#6b7280" font-size="8" font-family="Consolas,Menlo,monospace">AI COPILOT ACTIVE</text>
+      <text x="580" y="326" fill="#45f6ff" font-size="8" font-family="Consolas,Menlo,monospace" text-anchor="end">GPU ▪ 98%</text>
     </g>
   </g>
 
-  <g>
-    <circle cx="476" cy="352" r="34" fill="#0f172a" stroke="url(#neonPurple)" stroke-width="2.5"/>
-    <ellipse cx="476" cy="344" rx="18" ry="14" fill="#152238"/>
-    <circle cx="468" cy="341" r="3.2" fill="#8ef8ff"/>
-    <circle cx="484" cy="341" r="3.2" fill="#8ef8ff"/>
-    <path d="M466 355 Q476 364 486 355" fill="none" stroke="#8ef8ff" stroke-width="2" stroke-linecap="round"/>
-
-    <rect x="438" y="386" width="76" height="72" rx="14" fill="#101a33" stroke="url(#neonBlue)" stroke-width="2"/>
-
-    <g class="typingArm">
-      <rect x="420" y="392" width="22" height="58" rx="10" fill="#12203a" stroke="#45f6ff" stroke-opacity="0.7" stroke-width="1.6"/>
-      <circle cx="430" cy="454" r="7" fill="#1e2f4f"/>
+  <!-- === LEFT SIDE: AI Brain Hologram === -->
+  <g class="float3" filter="url(#softGlow)">
+    <!-- Rotating orbit rings -->
+    <g style="transform-origin:200px 260px" class="rotateSlow">
+      <ellipse cx="200" cy="260" rx="60" ry="20" fill="none" stroke="#c084fc" stroke-opacity="0.3" stroke-width="1" stroke-dasharray="4 6"/>
+    </g>
+    <g style="transform-origin:200px 260px" class="rotate">
+      <ellipse cx="200" cy="260" rx="45" ry="35" fill="none" stroke="#45f6ff" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="3 5"/>
     </g>
 
-    <g class="typingArm2">
-      <rect x="510" y="392" width="22" height="58" rx="10" fill="#12203a" stroke="#7aa9ff" stroke-opacity="0.7" stroke-width="1.6"/>
-      <circle cx="522" cy="454" r="7" fill="#1e2f4f"/>
+    <!-- AI Brain icon -->
+    <g filter="url(#softGlow)">
+      <circle cx="200" cy="260" r="28" fill="#0f172a" fill-opacity="0.6" stroke="url(#brainGrad)" stroke-width="2"/>
+      <!-- Brain neural paths -->
+      <path d="M188 248 Q192 240, 200 242 Q208 240, 212 248" fill="none" stroke="#c084fc" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M185 258 Q190 252, 200 254 Q210 252, 215 258" fill="none" stroke="#45f6ff" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M188 268 Q194 262, 200 264 Q206 262, 212 268" fill="none" stroke="#f472b6" stroke-width="1.5" stroke-linecap="round"/>
+      <!-- Neural dots -->
+      <circle cx="192" cy="250" r="2" fill="#c084fc" class="pulse2"/>
+      <circle cx="208" cy="250" r="2" fill="#c084fc" class="pulse"/>
+      <circle cx="200" cy="260" r="2.5" fill="#45f6ff" class="pulse2"/>
+      <circle cx="190" cy="268" r="2" fill="#f472b6" class="pulse"/>
+      <circle cx="210" cy="268" r="2" fill="#f472b6" class="pulse2"/>
     </g>
+
+    <!-- "AI" label -->
+    <text x="200" y="310" text-anchor="middle" fill="#c084fc" font-size="12" font-family="Consolas,Menlo,monospace" font-weight="700" class="breathe">A.I.</text>
   </g>
 
-  <g>
-    <rect x="388" y="458" width="176" height="20" rx="8" fill="#0f1d36" stroke="#45f6ff" stroke-opacity="0.45"/>
-    <g fill="#8ef8ff" fill-opacity="0.85">
-      <rect x="400" y="463" width="12" height="6" rx="2">
-        <animate attributeName="opacity" values="0.35;1;0.35" dur="0.5s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="416" y="463" width="12" height="6" rx="2">
-        <animate attributeName="opacity" values="1;0.35;1" dur="0.5s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="432" y="463" width="12" height="6" rx="2"/>
-      <rect x="448" y="463" width="12" height="6" rx="2"/>
-      <rect x="464" y="463" width="12" height="6" rx="2"/>
-      <rect x="480" y="463" width="12" height="6" rx="2"/>
-      <rect x="496" y="463" width="12" height="6" rx="2"/>
-      <rect x="512" y="463" width="12" height="6" rx="2"/>
-      <rect x="528" y="463" width="12" height="6" rx="2"/>
-      <rect x="544" y="463" width="12" height="6" rx="2"/>
-    </g>
-  </g>
-
+  <!-- === RIGHT SIDE: Data Visualization === -->
   <g class="float2" filter="url(#softGlow)">
-    <circle cx="250" cy="120" r="3" fill="#8ef8ff" class="pulse"/>
-    <circle cx="700" cy="130" r="3" fill="#7aa9ff" class="pulse"/>
-    <circle cx="760" cy="250" r="2.5" fill="#a78bfa" class="pulse"/>
-    <circle cx="210" cy="280" r="2.5" fill="#45f6ff" class="pulse"/>
+    <!-- Circular data viz -->
+    <g style="transform-origin:760px 260px" class="rotateSlow">
+      <circle cx="760" cy="260" r="40" fill="none" stroke="#45f6ff" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="8 4"/>
+    </g>
+    <g style="transform-origin:760px 260px" class="rotate">
+      <circle cx="760" cy="260" r="28" fill="none" stroke="#c084fc" stroke-opacity="0.3" stroke-width="1.5" stroke-dasharray="5 3"/>
+      <!-- Orbiting data points -->
+      <circle cx="788" cy="260" r="3" fill="#45f6ff" filter="url(#softGlow)"/>
+      <circle cx="760" cy="232" r="2.5" fill="#c084fc" filter="url(#softGlow)"/>
+      <circle cx="732" cy="260" r="2" fill="#f472b6" filter="url(#softGlow)"/>
+    </g>
 
-    <path d="M210 140 L240 160 L220 190" class="wire" stroke-width="1.5" opacity="0.45"/>
-    <path d="M720 180 L760 200 L740 230" class="wire" stroke-width="1.5" opacity="0.45"/>
+    <!-- Center icon: chip/processor -->
+    <rect x="748" y="248" width="24" height="24" rx="4" fill="#0f172a" stroke="#45f6ff" stroke-width="1.5"/>
+    <line x1="754" y1="248" x2="754" y2="244" stroke="#45f6ff" stroke-width="1" class="pulse"/>
+    <line x1="760" y1="248" x2="760" y2="244" stroke="#45f6ff" stroke-width="1" class="pulse2"/>
+    <line x1="766" y1="248" x2="766" y2="244" stroke="#45f6ff" stroke-width="1" class="pulse"/>
+    <line x1="754" y1="272" x2="754" y2="276" stroke="#45f6ff" stroke-width="1" class="pulse2"/>
+    <line x1="760" y1="272" x2="760" y2="276" stroke="#45f6ff" stroke-width="1" class="pulse"/>
+    <line x1="766" y1="272" x2="766" y2="276" stroke="#45f6ff" stroke-width="1" class="pulse2"/>
+    <line x1="748" y1="254" x2="744" y2="254" stroke="#c084fc" stroke-width="1" class="pulse"/>
+    <line x1="748" y1="260" x2="744" y2="260" stroke="#c084fc" stroke-width="1" class="pulse2"/>
+    <line x1="748" y1="266" x2="744" y2="266" stroke="#c084fc" stroke-width="1" class="pulse"/>
+    <line x1="772" y1="254" x2="776" y2="254" stroke="#c084fc" stroke-width="1" class="pulse2"/>
+    <line x1="772" y1="260" x2="776" y2="260" stroke="#c084fc" stroke-width="1" class="pulse"/>
+    <line x1="772" y1="266" x2="776" y2="266" stroke="#c084fc" stroke-width="1" class="pulse2"/>
+    <!-- Chip inner -->
+    <rect x="755" y="255" width="10" height="10" rx="1" fill="#45f6ff" fill-opacity="0.3" class="pulse2"/>
+
+    <text x="760" y="300" text-anchor="middle" fill="#45f6ff" font-size="10" font-family="Consolas,Menlo,monospace" class="breathe">GPU</text>
   </g>
+
+  <!-- === CHARACTER === -->
+  <g>
+    <!-- Head with tech visor -->
+    <circle cx="476" cy="355" r="36" fill="#0f172a" stroke="url(#neonPurple)" stroke-width="2.5"/>
+    <!-- Visor / AR glasses -->
+    <rect x="448" y="340" width="56" height="14" rx="7" fill="#0f172a" stroke="url(#neonCyan)" stroke-width="1.5" fill-opacity="0.8"/>
+    <rect x="452" y="343" width="20" height="8" rx="4" fill="#45f6ff" fill-opacity="0.15"/>
+    <rect x="476" y="343" width="24" height="8" rx="4" fill="#45f6ff" fill-opacity="0.15"/>
+    <!-- Eyes behind visor (glowing) -->
+    <circle cx="462" cy="347" r="3" fill="#45f6ff" class="pulse2" filter="url(#softGlow)"/>
+    <circle cx="490" cy="347" r="3" fill="#45f6ff" class="pulse2" filter="url(#softGlow)"/>
+    <!-- Visor data overlay -->
+    <rect x="454" y="345" width="8" height="1" fill="#45f6ff" fill-opacity="0.6"/>
+    <rect x="478" y="345" width="12" height="1" fill="#c084fc" fill-opacity="0.6"/>
+    <rect x="494" y="345" width="4" height="1" fill="#45f6ff" fill-opacity="0.4"/>
+
+    <!-- Hair (tech style) -->
+    <path d="M445 340 Q440 320, 460 315 Q476 310, 492 315 Q512 320, 507 340" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+
+    <!-- Smile -->
+    <path d="M464 365 Q476 374 488 365" fill="none" stroke="#45f6ff" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- Ear tech (bluetooth/neural link) -->
+    <circle cx="440" cy="352" r="5" fill="#0f172a" stroke="#c084fc" stroke-width="1.5"/>
+    <circle cx="440" cy="352" r="2" fill="#c084fc" class="pulse2"/>
+
+    <!-- Body / Tech jacket -->
+    <rect x="438" y="390" width="76" height="72" rx="14" fill="#0f172a" stroke="url(#neonBlue)" stroke-width="2"/>
+    <!-- Jacket details -->
+    <line x1="476" y1="390" x2="476" y2="462" stroke="#4361ee" stroke-opacity="0.3" stroke-width="1"/>
+    <rect x="460" y="400" width="32" height="3" rx="1.5" fill="#45f6ff" fill-opacity="0.15"/>
+    <rect x="465" y="408" width="22" height="2" rx="1" fill="#c084fc" fill-opacity="0.12"/>
+    <!-- Chest emblem (AI logo) -->
+    <circle cx="476" cy="420" r="8" fill="none" stroke="#c084fc" stroke-width="1" stroke-opacity="0.5"/>
+    <text x="476" y="423" text-anchor="middle" fill="#c084fc" font-size="8" font-family="Consolas,Menlo,monospace" font-weight="700" opacity="0.7">AI</text>
+
+    <!-- Left arm (typing) -->
+    <g class="typingArm">
+      <rect x="418" y="395" width="22" height="58" rx="10" fill="#12203a" stroke="#45f6ff" stroke-opacity="0.5" stroke-width="1.5"/>
+      <circle cx="428" cy="457" r="7" fill="#1e2f4f" stroke="#45f6ff" stroke-opacity="0.3" stroke-width="1"/>
+    </g>
+
+    <!-- Right arm (typing) -->
+    <g class="typingArm2">
+      <rect x="512" y="395" width="22" height="58" rx="10" fill="#12203a" stroke="#7aa9ff" stroke-opacity="0.5" stroke-width="1.5"/>
+      <circle cx="524" cy="457" r="7" fill="#1e2f4f" stroke="#7aa9ff" stroke-opacity="0.3" stroke-width="1"/>
+    </g>
+  </g>
+
+  <!-- === KEYBOARD (holographic) === -->
+  <g class="breathe">
+    <rect x="385" y="460" width="182" height="22" rx="8" fill="#0f172a" fill-opacity="0.5" stroke="#45f6ff" stroke-opacity="0.35" stroke-width="1.5"/>
+    <!-- Key rows -->
+    <g fill="#45f6ff" fill-opacity="0.6">
+      <rect x="396" y="465" width="10" height="5" rx="1.5">
+        <animate attributeName="fill-opacity" values="0.3;0.9;0.3" dur="0.4s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="410" y="465" width="10" height="5" rx="1.5">
+        <animate attributeName="fill-opacity" values="0.8;0.3;0.8" dur="0.45s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="424" y="465" width="10" height="5" rx="1.5"/>
+      <rect x="438" y="465" width="10" height="5" rx="1.5">
+        <animate attributeName="fill-opacity" values="0.5;1;0.5" dur="0.55s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="452" y="465" width="10" height="5" rx="1.5"/>
+      <rect x="466" y="465" width="10" height="5" rx="1.5"/>
+      <rect x="480" y="465" width="10" height="5" rx="1.5">
+        <animate attributeName="fill-opacity" values="0.3;0.8;0.3" dur="0.5s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="494" y="465" width="10" height="5" rx="1.5"/>
+      <rect x="508" y="465" width="10" height="5" rx="1.5"/>
+      <rect x="522" y="465" width="10" height="5" rx="1.5"/>
+      <rect x="536" y="465" width="10" height="5" rx="1.5"/>
+      <rect x="550" y="465" width="10" height="5" rx="1.5"/>
+    </g>
+    <!-- Second row -->
+    <g fill="#c084fc" fill-opacity="0.35">
+      <rect x="400" y="473" width="8" height="4" rx="1"/>
+      <rect x="412" y="473" width="8" height="4" rx="1"/>
+      <rect x="424" y="473" width="8" height="4" rx="1"/>
+      <rect x="436" y="473" width="28" height="4" rx="1"/>
+      <rect x="468" y="473" width="8" height="4" rx="1"/>
+      <rect x="480" y="473" width="8" height="4" rx="1"/>
+      <rect x="492" y="473" width="8" height="4" rx="1"/>
+      <rect x="504" y="473" width="8" height="4" rx="1"/>
+      <rect x="516" y="473" width="8" height="4" rx="1"/>
+      <rect x="528" y="473" width="8" height="4" rx="1"/>
+      <rect x="540" y="473" width="8" height="4" rx="1"/>
+    </g>
+  </g>
+
+  <!-- === DATA STREAM PARTICLES === -->
+  <g filter="url(#softGlow)">
+    <!-- Left data stream (brain → monitor) -->
+    <path d="M230 260 Q280 240, 322 200" class="wire2" stroke-dasharray="4 8" style="animation:dataFlow 2s linear infinite"/>
+    <path d="M230 270 Q290 280, 322 250" class="wire" stroke-dasharray="3 6" style="animation:dataFlow 2.5s linear infinite"/>
+
+    <!-- Right data stream (chip → monitor) -->
+    <path d="M730 260 Q680 240, 630 200" class="wire2" stroke-dasharray="4 8" style="animation:dataFlow 2.2s linear infinite"/>
+    <path d="M730 270 Q670 280, 630 250" class="wire" stroke-dasharray="3 6" style="animation:dataFlow 2.7s linear infinite"/>
+  </g>
+
+  <!-- === FLOATING SPARKLES === -->
+  <g filter="url(#softGlow)">
+    <circle cx="300" cy="140" r="2" fill="#45f6ff" class="sparkle"/>
+    <circle cx="660" cy="150" r="2" fill="#c084fc" class="sparkle" style="animation-delay:0.5s"/>
+    <circle cx="340" cy="380" r="1.5" fill="#f472b6" class="sparkle" style="animation-delay:1s"/>
+    <circle cx="620" cy="390" r="1.5" fill="#45f6ff" class="sparkle" style="animation-delay:1.5s"/>
+    <circle cx="180" cy="180" r="2" fill="#c084fc" class="sparkle" style="animation-delay:0.3s"/>
+    <circle cx="780" cy="170" r="2" fill="#45f6ff" class="sparkle" style="animation-delay:0.8s"/>
+    <circle cx="160" cy="400" r="1.5" fill="#f472b6" class="sparkle" style="animation-delay:1.2s"/>
+    <circle cx="820" cy="380" r="1.5" fill="#c084fc" class="sparkle" style="animation-delay:0.7s"/>
+  </g>
+
+  <!-- === BOTTOM CIRCUIT WIRES === -->
+  <g filter="url(#softGlow)">
+    <path d="M170 430 C220 400, 260 410, 310 430" class="wire" opacity="0.4"/>
+    <path d="M650 430 C700 400, 740 410, 790 430" class="wire" opacity="0.4"/>
+    <circle cx="170" cy="430" r="3" fill="#45f6ff" class="pulse"/>
+    <circle cx="310" cy="430" r="3" fill="#c084fc" class="pulse2"/>
+    <circle cx="650" cy="430" r="3" fill="#c084fc" class="pulse2"/>
+    <circle cx="790" cy="430" r="3" fill="#45f6ff" class="pulse"/>
+  </g>
+
 </svg>
