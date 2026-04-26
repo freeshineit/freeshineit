@@ -1,5 +1,5 @@
 <div style="text-align: center; display: flex; justify-content: center;" align="center">
-<img src="./icons/coder-tech.svg" width="200" />
+<img src="./icons/coder-tech.svg"/>
 </div>
 
 <div style="text-align: center; display: flex; justify-content: center; padding: 20px" align="center">
