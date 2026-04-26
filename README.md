@@ -70,33 +70,32 @@
 
 <table width="100%" style="width: 100%; table-layout: fixed;">
   <tr>
-    <th align="center">💻 Front-End</th>
-    <th align="center">🔧 Tools</th>
-    <th align="center">🌱 Learning</th>
-  </tr>
-  <tr>
-    <td valign="top" width="33.33%" style="width: 33.33%;">
+    <th align="left" valign="top" width="20%" style="width: 20%;">💻 Front-End</th>
+    <td valign="top" width="80%" style="width: 80%;">
       <div>
-      <a href="https://www.w3.org/html/" title="HTML5"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="36" height="36" alt="HTML5" /></picture></a>
-      <a href="https://www.w3schools.com/css/" title="CSS3"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" width="36" height="36" alt="CSS3" /></picture></a>
-      <a href="https://sass-lang.com" title="Sass"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" width="36" height="36" alt="Sass" /></picture></a>
-      <a href="https://lesscss.org" title="Less"><picture><img src="./icons/less.svg" width="36" height="36" alt="Less" /></picture></a>
-      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="36" height="36" alt="JavaScript" /></picture></a>
-      <a href="https://www.typescriptlang.org/" title="TypeScript"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="36" height="36" alt="TypeScript" /></picture></a>
-      <br />
-      <a href="https://reactjs.org/" title="React"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="36" height="36" alt="React" /></picture></a>
-      <a href="https://redux.js.org" title="Redux"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" width="36" height="36" alt="Redux" /></picture></a>
-      <a href="https://nextjs.org" title="Next.js"><picture><img src="./icons/next.js.svg" width="36" height="36" alt="Next.js" /></picture></a>
-      <a href="https://vuejs.org/" title="Vue.js"><picture><img src="./icons/vue.svg" width="36" height="36" alt="Vue.js" /></picture></a>
-      <a href="https://www.electronjs.org" title="Electron"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg" width="36" height="36" alt="Electron" /></picture></a>
-      <br />
-      <a href="https://nodejs.org" title="Node.js"><picture><img src="./icons/nodejs.svg" width="36" height="36" alt="Node.js" /></picture></a>
-      <a href="https://mp.weixin.qq.com/cgi-bin/wx?token=&lang=zh_CN" title="小程序"><picture><img src="./icons/mini_programs.svg" width="36" height="36" alt="小程序" /></picture></a>
-      <a href="https://koajs.com" title="Koa2"><picture><img src="./icons/koa2.png" width="36" height="36" alt="Koa2" /></picture></a>
-      <a href="https://www.docker.com/" title="Docker"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" width="36" height="36" alt="Docker" /></picture></a>
+        <a href="https://www.w3.org/html/" title="HTML5"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="36" height="36" alt="HTML5" /></picture></a>
+        <a href="https://www.w3schools.com/css/" title="CSS3"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" width="36" height="36" alt="CSS3" /></picture></a>
+        <a href="https://sass-lang.com" title="Sass"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" width="36" height="36" alt="Sass" /></picture></a>
+        <a href="https://lesscss.org" title="Less"><picture><img src="./icons/less.svg" width="36" height="36" alt="Less" /></picture></a>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="36" height="36" alt="JavaScript" /></picture></a>
+        <a href="https://www.typescriptlang.org/" title="TypeScript"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="36" height="36" alt="TypeScript" /></picture></a>
+        <br />
+        <a href="https://reactjs.org/" title="React"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="36" height="36" alt="React" /></picture></a>
+        <a href="https://redux.js.org" title="Redux"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" width="36" height="36" alt="Redux" /></picture></a>
+        <a href="https://nextjs.org" title="Next.js"><picture><img src="./icons/next.js.svg" width="36" height="36" alt="Next.js" /></picture></a>
+        <a href="https://vuejs.org/" title="Vue.js"><picture><img src="./icons/vue.svg" width="36" height="36" alt="Vue.js" /></picture></a>
+        <a href="https://www.electronjs.org" title="Electron"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg" width="36" height="36" alt="Electron" /></picture></a>
+        <br />
+        <a href="https://nodejs.org" title="Node.js"><picture><img src="./icons/nodejs.svg" width="36" height="36" alt="Node.js" /></picture></a>
+        <a href="https://mp.weixin.qq.com/cgi-bin/wx?token=&lang=zh_CN" title="小程序"><picture><img src="./icons/mini_programs.svg" width="36" height="36" alt="小程序" /></picture></a>
+        <a href="https://koajs.com" title="Koa2"><picture><img src="./icons/koa2.png" width="36" height="36" alt="Koa2" /></picture></a>
+        <a href="https://www.docker.com/" title="Docker"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" width="36" height="36" alt="Docker" /></picture></a>
       </div>
     </td>
-    <td valign="top" width="33.33%" style="width: 33.33%;">
+  </tr>
+  <tr>
+    <th align="left" valign="top" width="20%" style="width: 20%;">🔧 Tools</th>
+    <td valign="top" width="80%" style="width: 80%;">
       <div>
         <a href="https://git-scm.com/" title="Git"><picture><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="36" height="36" alt="Git" /></picture></a>
         <a href="https://webpack.js.org" title="Webpack"><picture><img src="./icons/webpack.svg" width="36" height="36" alt="Webpack" /></picture></a>
@@ -105,7 +104,10 @@
         <a href="https://vitejs.dev/" title="Vite"><picture><img src="./icons/vite.svg" width="36" height="36" alt="Vite" /></picture></a>
       </div>
     </td>
-    <td valign="top" width="33.33%" style="width: 33.33%;">
+  </tr>
+  <tr>
+    <th align="left" valign="top" width="20%" style="width: 20%;">🌱 Learning</th>
+    <td valign="top" width="80%" style="width: 80%;">
       <div>
         <a href="https://golang.org" title="Go"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" width="36" height="36" alt="Go" /></picture></a>
         <a href="https://www.rust-lang.org" title="Rust"><picture><img src="./icons/rust.svg" width="36" height="36" alt="Rust" /></picture></a>
