@@ -91,7 +91,7 @@
 
   <a href="https://golang.org" target="_blank" rel="noreferrer" title='golang'><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="golang" width="40" height="40" /></picture></a>
   <a href="https://www.rust-lang.org" target="_blank" rel="noreferrer" title='rust'><picture><img src="./icons/rust.png" alt="rust" width="40" height="40" /></picture></a>
-  <a href="https://webassembly.org" target="_blank" rel="noreferrer" title='webassembly'><picture><img src="./icons/webassembly.svg" alt="webassembly" width="40" height="40" /></picture></a>
+  <a href="https://webassembly.org" target="_blank" rel="noreferrer" title='webassembly'><picture><img src="./icons/webassembly.svg" alt="webassembly" width="80" height="40" /></picture></a>
 
 
 <!--
