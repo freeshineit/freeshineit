@@ -38,14 +38,14 @@
 
 <picture>
   <source 
-    srcset="https://github-readme-streak-stats.herokuapp.com?user=freeshineit&ring=10b981&fire=10b981&currStreakLabel=ffffff&card_width=320&hide_border=true"
+    srcset="https://github-readme-streak-stats.herokuapp.com?user=freeshineit&theme=dark&ring=10b981&fire=10b981&currStreakLabel=ffffff&card_width=320&hide_border=true"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    srcset="https://github-readme-streak-stats.herokuapp.com?user=freeshineit&ring=10b981&fire=10b981&currStreakLabel=ffffff&card_width=320&hide_border=true"
+    srcset="https://github-readme-streak-stats.herokuapp.com?user=freeshineit&theme=default&ring=059669&fire=059669&currStreakLabel=0f172a&card_width=320&hide_border=true"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=freeshineit&ring=10b981&fire=10b981&currStreakLabel=ffffff&card_width=320&hide_border=true" alt="GitHub Streak Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=freeshineit&theme=default&ring=059669&fire=059669&currStreakLabel=0f172a&card_width=320&hide_border=true" alt="GitHub Streak Stats" />
 </picture>
  
 
