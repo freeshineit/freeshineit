@@ -3,6 +3,11 @@
 
   # Hi there, I'm ShineShao 👋
 
+
+  <p align="center">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=0EA5E9&center=true&vCenter=true&random=false&width=520&lines=Frontend+Developer;Open+Source+Enthusiast;Building+cool+things+with+code" alt="Typing SVG" />
+  </p>
+
   <p>
     <img src="https://komarev.com/ghpvc/?username=freeshineit&style=flat-square&color=blue" alt="Profile views" />
     <a href="https://github.com/freeshineit?tab=followers"><img src="https://img.shields.io/github/followers/freeshineit?label=Followers&style=flat-square" alt="GitHub followers" /></a>
@@ -114,6 +119,13 @@
     </td>
   </tr>
 </table>
+
+<!-- 
+## 📈 Activity Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=freeshineit&theme=github-compact&hide_border=true&area=true" alt="activity graph" />
+</p> -->
 
 <!-- <br />
 
