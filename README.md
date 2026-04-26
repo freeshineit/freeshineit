@@ -79,13 +79,11 @@
         <a href="https://lesscss.org" title="Less"><picture><img src="./icons/less.svg" width="36" height="36" alt="Less" /></picture></a>
         <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="36" height="36" alt="JavaScript" /></picture></a>
         <a href="https://www.typescriptlang.org/" title="TypeScript"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="36" height="36" alt="TypeScript" /></picture></a>
-        <br />
         <a href="https://reactjs.org/" title="React"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="36" height="36" alt="React" /></picture></a>
         <a href="https://redux.js.org" title="Redux"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" width="36" height="36" alt="Redux" /></picture></a>
         <a href="https://nextjs.org" title="Next.js"><picture><img src="./icons/next.js.svg" width="36" height="36" alt="Next.js" /></picture></a>
         <a href="https://vuejs.org/" title="Vue.js"><picture><img src="./icons/vue.svg" width="36" height="36" alt="Vue.js" /></picture></a>
         <a href="https://www.electronjs.org" title="Electron"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg" width="36" height="36" alt="Electron" /></picture></a>
-        <br />
         <a href="https://nodejs.org" title="Node.js"><picture><img src="./icons/nodejs.svg" width="36" height="36" alt="Node.js" /></picture></a>
         <a href="https://mp.weixin.qq.com/cgi-bin/wx?token=&lang=zh_CN" title="小程序"><picture><img src="./icons/mini_programs.svg" width="36" height="36" alt="小程序" /></picture></a>
         <a href="https://koajs.com" title="Koa2"><picture><img src="./icons/koa2.png" width="36" height="36" alt="Koa2" /></picture></a>
