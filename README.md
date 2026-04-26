@@ -36,7 +36,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=freeshineit&show_icons=true&langs_count=8&layout=compact&hide=python&hide_border=true" alt="freeshineit's Top Langs" />
 </picture>
 
-<picture>
+<!-- <picture>
   <source 
     srcset="https://github-readme-streak-stats.herokuapp.com?user=freeshineit&theme=dark&ring=10b981&fire=10b981&currStreakLabel=ffffff&card_width=320&hide_border=true"
     media="(prefers-color-scheme: dark)"
@@ -47,7 +47,7 @@
   />
   <img src="https://github-readme-streak-stats.herokuapp.com?user=freeshineit&theme=default&ring=059669&fire=059669&currStreakLabel=0f172a&card_width=320&hide_border=true" alt="GitHub Streak Stats" />
 </picture>
- 
+  -->
 
 </div>
 
@@ -62,10 +62,18 @@
 
 - FE Development
 
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer" title='html5'><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40" /></a>
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer" title='css3'><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" /></a>
-  <a href="https://sass-lang.com" target="_blank" rel="noreferrer" title='sass'><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40" /></a>
-  <a href="https://lesscss.org" target="_blank" rel="noreferrer" title='less'><img src="./icons/less.svg" alt="less" width="40" height="40" /></a>
+  <!-- <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer" title='html5'> -->
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40" />
+  <!-- </a> -->
+  <!-- <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer" title='css3'> -->
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" />
+  <!-- </a> -->
+  <!-- <a href="https://sass-lang.com" target="_blank" rel="noreferrer" title='sass'> -->
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40" />
+  <!-- </a> -->
+  <!-- <a href="https://lesscss.org" target="_blank" rel="noreferrer" title='less'> -->
+  <img src="./icons/less.svg" alt="less" width="40" height="40" />
+  <!-- </a> -->
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer" title='javascript'><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" /></a>
   <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer" title='typescript'><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40" /></a>
   <a href="https://reactjs.org/" target="_blank" rel="noreferrer" title='react'><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" /></a>
