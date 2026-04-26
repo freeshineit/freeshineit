@@ -72,7 +72,7 @@
   <a href="https://reactjs.org/" target="_blank" rel="noreferrer" title='react'><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" /></picture></a>
   <a href="https://redux.js.org" target="_blank" rel="noreferrer" title='redux'><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40" /></picture></a>
   <a href="https://nextjs.org" target="_blank" rel="noreferrer" title='nextjs'><picture><img src="./icons/next.js.svg" alt="next.js" width="40" height="40" /></picture></a>
-  <a href="https://vuejs.org/" target="_blank" rel="noreferrer" title='vuejs'><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40" /></picture></a>
+  <a href="https://vuejs.org/" target="_blank" rel="noreferrer" title='vuejs'><picture><img src="./icons/vue.svg" alt="vuejs" width="40" height="40" /></picture></a>
   <a href="https://www.electronjs.org" target="_blank" rel="noreferrer" title='electron'><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg" alt="electron" width="40" height="40" /></picture></a>
   <a href="https://nodejs.org" target="_blank" rel="noreferrer" title='nodejs'><picture><img src="./icons/nodejs.svg" alt="nodejs" width="40" height="40" /></picture></a>
   <a href="https://mp.weixin.qq.com/cgi-bin/wx?token=&lang=zh_CN" target="_blank" rel="noreferrer" title='小程序'><picture><img src="./icons/mini_programs.svg" alt="小程序" width="40" height="40" /></picture></a>
