@@ -49,36 +49,83 @@
 ### 💻 Ask me about
 
 - FE Development
-
-  <a href="https://www.w3.org/html/" title="html5"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40" /></a>
-  <a href="https://www.w3schools.com/css/" title="css3"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" /></a>
-  <a href="https://sass-lang.com" title="sass"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40" /></a>
-  <a href="https://lesscss.org" title="less"><img src="./icons/less.svg" alt="less" width="40" height="40" /></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="javascript"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" /></a>
-  <a href="https://www.typescriptlang.org/" title="typescript"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40" /></a>
-  <a href="https://reactjs.org/" title="react"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" /></a>
-  <a href="https://redux.js.org" title="redux"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40" /></a>
-  <a href="https://nextjs.org" title="nextjs"><img src="./icons/next.js.png" alt="next.js" width="40" height="40" /></a>
-  <a href="https://vuejs.org/" title="vuejs"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40" /></a>
-  <a href="https://www.electronjs.org" title="electron"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg" alt="electron" width="40" height="40" /></a>
-  <a href="https://nodejs.org" title="nodejs"><img src="./icons/nodejs.png" alt="nodejs" width="40" height="40" /></a>
-  <a href="https://mp.weixin.qq.com/cgi-bin/wx?token=&lang=zh_CN" title="小程序"><img src="./icons/mini_programs.svg" alt="小程序" width="40" height="40" /></a>
-  <a href="https://koajs.com" title="koa2"><img src="./icons/koa2.png" alt="koa2" width="40" height="40" /></a>
-  <a href="https://www.docker.com/" title="docker"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40" /></a>
+  <div style="display: flex;"> 
+    <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer" title='html5'> 
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
+    </a>
+    <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer" title='css3'>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
+    </a>
+    <a href="https://sass-lang.com" target="_blank" rel="noreferrer" title='sass'> 
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> 
+    </a>
+    <a href="https://lesscss.org" target="_blank" rel="noreferrer" title='less'> 
+      <img src="./icons/less.svg" alt="less" width="40" height="40"/> 
+    </a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer" title='javascript'>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
+    </a>
+    <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer" title='typescript'>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/>
+    </a>
+    <a href="https://reactjs.org/" target="_blank" rel="noreferrer" title='react'>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
+    </a>
+    <a href="https://redux.js.org" target="_blank" rel="noreferrer" title='redux'>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/>
+    </a>
+    <a href="https://nextjs.org" target="_blank" rel="noreferrer" title='nextjs'> 
+      <img src="./icons/next.js.png" alt="next.js" height="40"/> 
+    </a>
+    <a href="https://vuejs.org/" target="_blank" rel="noreferrer" title='vuejs'>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/>
+    </a>
+    <a href="https://www.electronjs.org" target="_blank" rel="noreferrer" title='electron'>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg" alt="electron" width="40" height="40"/>
+    </a>
+    <a href="https://nodejs.org" target="_blank" rel="noreferrer" title='nodejs'> 
+      <img src="./icons/nodejs.png" alt="nodejs" width="40" height="40"/> 
+    </a>
+    <a href="https://mp.weixin.qq.com/cgi-bin/wx?token=&lang=zh_CN" target="_blank" rel="noreferrer" title='小程序'>
+      <img src="./icons/mini_programs.svg" alt="小程序" width="40" height="40"/>
+    </a>
+    <a href="https://koajs.com" target="_blank" rel="noreferrer" title='koa2'>
+      <img src="./icons/koa2.png" alt="Koa2" height="40"/>
+    </a>
+    <a href="https://www.docker.com/" target="_blank" rel="noreferrer" title='docker'>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/>
+    </a>
+</div>
 
 - Tools 🔧
-
-  <a href="https://git-scm.com/" title="git"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40" /></a>
-  <a href="https://webpack.js.org" title="webpack"><img src="./icons/webpack.svg" alt="webpack" width="40" height="40" /></a>
-  <a href="https://gulpjs.com" title="gulp"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gulp/gulp-plain.svg" alt="gulp" width="40" height="40" /></a>
-  <a href="https://rollupjs.org" title="rollup"><img src="./icons/rollup.svg" alt="rollup" width="40" height="40" /></a>
-  <a href="https://vitejs.dev/" title="vite"><img src="./icons/vite.svg" alt="vite" width="40" height="40" /></a>
+  
+  <a href="https://git-scm.com/" target="_blank" rel="noreferrer" title='git'> 
+    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
+  </a>
+  <a href="https://webpack.js.org" target="_blank" rel="noreferrer" title='webpack'>
+    <img src="./icons/webpack.svg" alt="webpack"  height="40"/>
+  </a>
+  <a href="https://gulpjs.com" target="_blank" rel="noreferrer" title='gulp'>
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gulp/gulp-plain.svg" alt="gulp" width="40" height="40"/> 
+  </a>
+  <a href="https://rollupjs.org" target="_blank" rel="noreferrer" title='rollup'> 
+    <img src="./icons/rollup.svg" alt="rollup" width="40" height="40"/>
+  </a>
+  <a href="https://vitejs.dev/" target="_blank" rel="noreferrer" title='vite'> 
+    <img src="./icons/vite.svg" alt="rollup" width="40" height="40"/>
+  </a>
 
 ### 🌱 I’m currently learning ...
 
-  <a href="https://golang.org" title="golang"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="golang" width="40" height="40" /></a>
-  <a href="https://www.rust-lang.org" title="rust"><img src="./icons/rust.png" alt="rust" width="40" height="40" /></a>
-  <a href="https://webassembly.org" title="webassembly"><img src="./icons/webassembly.svg" alt="webassembly" width="40" height="40" /></a>
+  <a href="https://golang.org" target="_blank" rel="noreferrer" title='golang'> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="golang" width="40" height="40"/>
+  </a>
+  <a href="https://www.rust-lang.org" target="_blank" rel="noreferrer" title='rust'> 
+    <img src="./icons/rust.png" alt="rust" width="40" height="40"/> 
+  </a>
+  <a href="https://webassembly.org" target="_blank" rel="noreferrer" title='webassembly'> 
+    <img src="./icons/webassembly.svg" alt="webassembly" height="40"/> 
+  </a>
 
 
 <!--
