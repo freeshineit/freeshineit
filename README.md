@@ -53,14 +53,14 @@
     <td align="center" colspan="2">
       <picture>
         <source
-          srcset="https://github-readme-streak-stats.herokuapp.com?user=freeshineit&theme=dark&ring=10b981&fire=10b981&currStreakLabel=ffffff&card_width=800&hide_border=true&hide_title=true&bg_color=00000000"
+          srcset="https://github-readme-streak-stats.herokuapp.com?user=freeshineit&theme=dark&ring=10b981&fire=10b981&currStreakLabel=ffffff&card_width=800&hide_border=true&hide_title=true&background=transparent"
           media="(prefers-color-scheme: dark)"
         />
         <source
-          srcset="https://github-readme-streak-stats.herokuapp.com?user=freeshineit&theme=default&ring=059669&fire=059669&currStreakLabel=0f172a&card_width=800&hide_border=true&hide_title=true&bg_color=00000000"
+          srcset="https://github-readme-streak-stats.herokuapp.com?user=freeshineit&theme=default&ring=059669&fire=059669&currStreakLabel=0f172a&card_width=800&hide_border=true&hide_title=true&background=transparent"
           media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
         />
-        <img width="100%" src="https://github-readme-streak-stats.herokuapp.com?user=freeshineit&theme=default&ring=059669&fire=059669&currStreakLabel=0f172a&card_width=800&hide_border=true&hide_title=true&bg_color=00000000" alt="GitHub Streak Stats" />
+        <img width="100%" src="https://github-readme-streak-stats.herokuapp.com?user=freeshineit&theme=default&ring=059669&fire=059669&currStreakLabel=0f172a&card_width=800&hide_border=true&hide_title=true&background=transparent" alt="GitHub Streak Stats" />
       </picture>
     </td>
   </tr>
