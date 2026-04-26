@@ -53,14 +53,14 @@
 
 ## 🧩 Tech Stack
 
-<table width="1000%">
+<table width="100%">
   <tr>
     <th align="center">💻 Front-End</th>
     <th align="center">🔧 Tools</th>
     <th align="center">🌱 Learning</th>
   </tr>
   <tr>
-    <td valign="top" width="33.333%">
+    <td valign="top" width="33.3%">
       <a href="https://www.w3.org/html/" title="HTML5"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="36" height="36" alt="HTML5" /></a>
       <a href="https://www.w3schools.com/css/" title="CSS3"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" width="36" height="36" alt="CSS3" /></a>
       <a href="https://sass-lang.com" title="Sass"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" width="36" height="36" alt="Sass" /></a>
@@ -79,14 +79,14 @@
       <a href="https://koajs.com" title="Koa2"><img src="./icons/koa2.png" width="36" height="36" alt="Koa2" /></a>
       <a href="https://www.docker.com/" title="Docker"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" width="36" height="36" alt="Docker" /></a>
     </td>
-    <td valign="top" width="33.333%">
+    <td valign="top" width="33.3%">
       <a href="https://git-scm.com/" title="Git"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="36" height="36" alt="Git" /></a>
       <a href="https://webpack.js.org" title="Webpack"><img src="./icons/webpack.svg" width="36" height="36" alt="Webpack" /></a>
       <a href="https://gulpjs.com" title="Gulp"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gulp/gulp-plain.svg" width="36" height="36" alt="Gulp" /></a>
       <a href="https://rollupjs.org" title="Rollup"><img src="./icons/rollup.svg" width="36" height="36" alt="Rollup" /></a>
       <a href="https://vitejs.dev/" title="Vite"><img src="./icons/vite.svg" width="36" height="36" alt="Vite" /></a>
     </td>
-    <td valign="top" width="33.333%">
+    <td valign="top" width="33.3%">
       <a href="https://golang.org" title="Go"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" width="36" height="36" alt="Go" /></a>
       <a href="https://www.rust-lang.org" title="Rust"><img src="./icons/rust.svg" width="36" height="36" alt="Rust" /></a>
       <a href="https://webassembly.org" title="WebAssembly"><img src="./icons/webassembly.svg" width="60" height="36" alt="WebAssembly" /></a>
