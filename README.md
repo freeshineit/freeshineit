@@ -81,17 +81,17 @@
 
 - Tools 🔧
 
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer" title='git'><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40" /></a>
-  <a href="https://webpack.js.org" target="_blank" rel="noreferrer" title='webpack'><img src="./icons/webpack.svg" alt="webpack" width="40" height="40" /></a>
-  <a href="https://gulpjs.com" target="_blank" rel="noreferrer" title='gulp'><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gulp/gulp-plain.svg" alt="gulp" width="40" height="40" /></a>
-  <a href="https://rollupjs.org" target="_blank" rel="noreferrer" title='rollup'><img src="./icons/rollup.svg" alt="rollup" width="40" height="40" /></a>
-  <a href="https://vitejs.dev/" target="_blank" rel="noreferrer" title='vite'><img src="./icons/vite.svg" alt="vite" width="40" height="40" /></a>
+  <a href="https://git-scm.com/" target="_blank" rel="noreferrer" title='git'><picture><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40" /></picture></a>
+  <a href="https://webpack.js.org" target="_blank" rel="noreferrer" title='webpack'><picture><img src="./icons/webpack.svg" alt="webpack" width="40" height="40" /></picture></a>
+  <a href="https://gulpjs.com" target="_blank" rel="noreferrer" title='gulp'><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gulp/gulp-plain.svg" alt="gulp" width="40" height="40" /></picture></a>
+  <a href="https://rollupjs.org" target="_blank" rel="noreferrer" title='rollup'><picture><img src="./icons/rollup.svg" alt="rollup" width="40" height="40" /></picture></a>
+  <a href="https://vitejs.dev/" target="_blank" rel="noreferrer" title='vite'><picture><img src="./icons/vite.svg" alt="vite" width="40" height="40" /></picture></a>
 
 ### 🌱 I’m currently learning ...
 
-  <a href="https://golang.org" target="_blank" rel="noreferrer" title='golang'><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="golang" width="40" height="40" /></a>
-  <a href="https://www.rust-lang.org" target="_blank" rel="noreferrer" title='rust'><img src="./icons/rust.png" alt="rust" width="40" height="40" /></a>
-  <a href="https://webassembly.org" target="_blank" rel="noreferrer" title='webassembly'><img src="./icons/webassembly.svg" alt="webassembly" width="40" height="40" /></a>
+  <a href="https://golang.org" target="_blank" rel="noreferrer" title='golang'><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="golang" width="40" height="40" /></picture></a>
+  <a href="https://www.rust-lang.org" target="_blank" rel="noreferrer" title='rust'><picture><img src="./icons/rust.png" alt="rust" width="40" height="40" /></picture></a>
+  <a href="https://webassembly.org" target="_blank" rel="noreferrer" title='webassembly'><picture><img src="./icons/webassembly.svg" alt="webassembly" width="40" height="40" /></picture></a>
 
 
 <!--
