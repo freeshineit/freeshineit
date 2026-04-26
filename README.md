@@ -76,6 +76,7 @@
   </tr>
   <tr>
     <td valign="top" width="33.33%" style="width: 33.33%;">
+      <div>
       <a href="https://www.w3.org/html/" title="HTML5"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="36" height="36" alt="HTML5" /></picture></a>
       <a href="https://www.w3schools.com/css/" title="CSS3"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" width="36" height="36" alt="CSS3" /></picture></a>
       <a href="https://sass-lang.com" title="Sass"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" width="36" height="36" alt="Sass" /></picture></a>
@@ -93,18 +94,23 @@
       <a href="https://mp.weixin.qq.com/cgi-bin/wx?token=&lang=zh_CN" title="小程序"><picture><img src="./icons/mini_programs.svg" width="36" height="36" alt="小程序" /></picture></a>
       <a href="https://koajs.com" title="Koa2"><picture><img src="./icons/koa2.png" width="36" height="36" alt="Koa2" /></picture></a>
       <a href="https://www.docker.com/" title="Docker"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" width="36" height="36" alt="Docker" /></picture></a>
+      </div>
     </td>
     <td valign="top" width="33.33%" style="width: 33.33%;">
-      <a href="https://git-scm.com/" title="Git"><picture><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="36" height="36" alt="Git" /></picture></a>
-      <a href="https://webpack.js.org" title="Webpack"><picture><img src="./icons/webpack.svg" width="36" height="36" alt="Webpack" /></picture></a>
-      <a href="https://gulpjs.com" title="Gulp"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gulp/gulp-plain.svg" width="36" height="36" alt="Gulp" /></picture></a>
-      <a href="https://rollupjs.org" title="Rollup"><picture><img src="./icons/rollup.svg" width="36" height="36" alt="Rollup" /></picture></a>
-      <a href="https://vitejs.dev/" title="Vite"><picture><img src="./icons/vite.svg" width="36" height="36" alt="Vite" /></picture></a>
+      <div>
+        <a href="https://git-scm.com/" title="Git"><picture><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="36" height="36" alt="Git" /></picture></a>
+        <a href="https://webpack.js.org" title="Webpack"><picture><img src="./icons/webpack.svg" width="36" height="36" alt="Webpack" /></picture></a>
+        <a href="https://gulpjs.com" title="Gulp"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gulp/gulp-plain.svg" width="36" height="36" alt="Gulp" /></picture></a>
+        <a href="https://rollupjs.org" title="Rollup"><picture><img src="./icons/rollup.svg" width="36" height="36" alt="Rollup" /></picture></a>
+        <a href="https://vitejs.dev/" title="Vite"><picture><img src="./icons/vite.svg" width="36" height="36" alt="Vite" /></picture></a>
+      </div>
     </td>
     <td valign="top" width="33.33%" style="width: 33.33%;">
-      <a href="https://golang.org" title="Go"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" width="36" height="36" alt="Go" /></picture></a>
-      <a href="https://www.rust-lang.org" title="Rust"><picture><img src="./icons/rust.svg" width="36" height="36" alt="Rust" /></picture></a>
-      <a href="https://webassembly.org" title="WebAssembly"><picture><img src="./icons/webassembly.svg" width="60" height="36" alt="WebAssembly" /></picture></a>
+      <div>
+        <a href="https://golang.org" title="Go"><picture><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" width="36" height="36" alt="Go" /></picture></a>
+        <a href="https://www.rust-lang.org" title="Rust"><picture><img src="./icons/rust.svg" width="36" height="36" alt="Rust" /></picture></a>
+        <a href="https://webassembly.org" title="WebAssembly"><picture><img src="./icons/webassembly.svg" width="60" height="36" alt="WebAssembly" /></picture></a>
+      </div>
     </td>
   </tr>
 </table>
