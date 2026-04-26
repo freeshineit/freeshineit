@@ -14,26 +14,38 @@
   <!-- https://github.com/anuraghazra/github-readme-stats --> 
  <picture>
   <source 
-    srcset="https://github-readme-stats.vercel.app/api?username=freeshineit&show_icons=true&count_private=true&include_all_commits=true&theme=dark"
+    srcset="https://github-readme-stats.vercel.app/api?username=freeshineit&show_icons=true&count_private=true&include_all_commits=true&theme=dark&hide_border=true"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=freeshineit&show_icons=true&count_private=true&include_all_commits=true"
+    srcset="https://github-readme-stats.vercel.app/api?username=freeshineit&show_icons=true&count_private=true&include_all_commits=true&hide_border=true"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-<img src="https://github-readme-stats.vercel.app/api?username=freeshineit&show_icons=true&count_private=true&include_all_commits=true" alt="freeshineit's GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api?username=freeshineit&show_icons=true&count_private=true&include_all_commits=true&hide_border=true" alt="freeshineit's GitHub Stats" />
 </picture>
 
 <picture>
   <source 
-    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=freeshineit&show_icons=true&theme=dark&langs_count=8&layout=compact&hide=python"
+    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=freeshineit&show_icons=true&theme=dark&langs_count=8&layout=compact&hide=python&hide_border=true"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=freeshineit&show_icons=true&langs_count=8&layout=compact&hide=python"
+    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=freeshineit&show_icons=true&langs_count=8&layout=compact&hide=python&hide_border=true"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=freeshineit&show_icons=true&langs_count=8&layout=compact&hide=python" alt="freeshineit's Top Langs" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=freeshineit&show_icons=true&langs_count=8&layout=compact&hide=python&hide_border=true" alt="freeshineit's Top Langs" />
+</picture>
+
+<picture>
+  <source 
+    srcset="https://github-readme-streak-stats.herokuapp.com?user=freeshineit&ring=10b981&fire=10b981&currStreakLabel=ffffff&card_width=320&hide_border=true"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://github-readme-streak-stats.herokuapp.com?user=freeshineit&ring=10b981&fire=10b981&currStreakLabel=ffffff&card_width=320&hide_border=true"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=freeshineit&ring=10b981&fire=10b981&currStreakLabel=ffffff&card_width=320&hide_border=true" alt="GitHub Streak Stats" />
 </picture>
  
 
