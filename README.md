@@ -43,14 +43,14 @@
     <td align="center" width="50%" style="width: 50%;">
       <picture>
         <source
-          srcset="https://github-readme-stats.vercel.app/api?username=freeshineit&show_icons=true&count_private=true&include_all_commits=true&theme=dark&hide_border=true&hide_title=true&bg_color=00000000"
+          srcset="https://github-readme-stats.zohan.tech/api?username=freeshineit&show_icons=true&count_private=true&include_all_commits=true&text_color=ffffff&bg_color=00000000&hide_border=true&hide_title=true"
           media="(prefers-color-scheme: dark)"
         />
         <source
-          srcset="https://github-readme-stats.vercel.app/api?username=freeshineit&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&hide_title=true&bg_color=00000000"
+          srcset="https://github-readme-stats.zohan.tech/api?username=freeshineit&show_icons=true&count_private=true&include_all_commits=true&bg_color=00000000&hide_border=true&hide_title=true"
           media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
         />
-        <img width="100%" src="https://github-readme-stats.vercel.app/api?username=freeshineit&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&hide_title=true&bg_color=00000000" alt="GitHub Stats" />
+        <img width="100%" src="https://github-readme-stats.zohan.tech/api?username=freeshineit&show_icons=true&count_private=true&include_all_commits=true&bg_color=00000000&hide_border=true&hide_title=true" alt="GitHub Stats" />
       </picture>
     </td>
   </tr>
