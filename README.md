@@ -34,7 +34,7 @@
             media="(prefers-color-scheme: dark)"
           />
           <source
-            srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=freeshineit&show_icons=true&&theme=light&langs_count=8&layout=compact&hide=python&hide_border=true&hide_title=true&bg_color=00000000"
+            srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=freeshineit&show_icons=true&theme=light&langs_count=8&layout=compact&hide=python&hide_border=true&hide_title=true&bg_color=00000000"
             media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
           />
           <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=freeshineit&show_icons=true&theme=light&langs_count=8&layout=compact&hide=python&hide_border=true&hide_title=true&bg_color=00000000" alt="Top Langs" />
